@@ -4,7 +4,7 @@
 
 <head>
 
-    <title> RedGreen Home and Garden </title>
+    <title> Jolly Home & Garden </title>
 
     <meta charset="utf-8" />
     <meta http-equiv="content-type" content="text/html" />
@@ -25,11 +25,13 @@
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo:900&display=swap" rel="stylesheet">
 
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+
+    <!-- Smooth Scroll -->
     <script>
         $(document).ready(function() {
             // Add smooth scrolling to all links
@@ -61,6 +63,11 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+    <!-- loader -->
+    <div id="loaderOverlay">
+        <div id="loader"></div>
+    </div>
 
     <!-- navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -284,8 +291,14 @@
         </footer>
     </section>
 
-    <!-- navbar shrink -->
     <script>
+        //loader fade
+        $(window).on('load', function() {
+            $('#loaderOverlay').addClass('loaded');
+            $('#loader').addClass('loaded');
+        });
+
+
         // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
         window.onscroll = function() {
             scrollFunction();
@@ -301,6 +314,8 @@
         }
 
     </script>
+
+
 
 </body>
 
