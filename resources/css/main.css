@@ -30,6 +30,12 @@
 .loaded {
     opacity: 0 !important;
     transition: 1s;
+    height: 0;
+}
+
+.fullyLoaded {
+    height: 0 !important;
+
 }
 
 @-webkit-keyframes spin {
@@ -82,12 +88,20 @@ h2 {
 p {
     font-size: 1.5em;
     text-align: justify;
+
+}
+
+.serviceDescriptions {
+    margin-bottom: 2em;
 }
 
 .TextAlignCenter {
     text-align: center;
 }
 
+.MarginBottom50 {
+    margin-bottom: 50px !important;
+}
 .header {
     font-size: 180px;
 }
@@ -118,7 +132,7 @@ p {
     padding-right: 10%;
 }
 
-#sec3 {
+#sec4 {
     background-image: url(xlMessage.png);
     width: 100vw;
     height: 100vh;
@@ -126,7 +140,6 @@ p {
     background-size: cover;
     background-position: center;
     padding-top: 100px;
-    margin-bottom: 50px;
 }
 
 /* grid */
@@ -229,6 +242,10 @@ p {
 
 /* services */
 
+.smColumn {
+    display: none;
+}
+
 /* contact */
 
 #sec7 {
@@ -243,10 +260,10 @@ p {
 
 /* locations */
 
-#sec8 {
+#sec5 {
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 50px;
+
 }
 
 .locations {
@@ -294,12 +311,29 @@ p {
 
 /* responsiveness */
 
+.smallerColumn {
+    display: none;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+#sec3 {
+    margin-bottom: 100px;
+}
+
+#sec6 {
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1200px) {
+    
     #sec1 {
         background-image: url(mediumHome.png);
     }
 
-    #sec3 {
+    #sec4 {
         background-image: url(mediumMessage.png);
     }
 
@@ -313,23 +347,37 @@ p {
 
 }
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+
+    .nav-link {
+        text-align: right;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
+
+    .smallerColumn {
+        display: inline-block !important;
+    }
+
+    .largerColumn {
+        display: none !important;
+        background-color: red;
+    }
+
     #sec1 {
         background-image: url(smallHome.png);
     }
 
-    #sec3 {
+    #sec4 {
         background-image: url(smallMessage.png);
     }
+
 }
 
 
 @media only screen and (max-width: 576px) {
-    .nav-link {
-        text-align: right;
-    }
 
     .locations {
         font-size: 20px;
@@ -337,10 +385,6 @@ p {
 
     #video-carousel-example {
         width: 80vw;
-    }
-
-    #sec3 {
-        padding-top: 50px;
     }
 
     .text {

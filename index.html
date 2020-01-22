@@ -4,7 +4,25 @@
 
 <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156764520-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156764520-1');
+
+    </script>
+
     <title> Jolly Home & Garden </title>
+    <meta property="og:title" content="Jolly Home & Garden">
+    <meta property="og:description" content="House clearances, lawncare, stump grinding and stump removal">
+    <meta property="og:image" content="http://www.jolly-home.uk/resources/img/jh&gLogo.png">
+    <meta property="og:url" content="http://www.jolly-home.uk/">
 
     <meta charset="utf-8" />
     <meta http-equiv="content-type" content="text/html" />
@@ -86,22 +104,19 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec2">Pledge</a>
+                        <a class="nav-link" href="#sec2">Services</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec3">Services</a>
+                        <a class="nav-link" href="#sec3">Contact</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec6">Testimonials</a>
+                        <a class="nav-link" href="#sec4">Pledge</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec7">Contact</a>
+                        <a class="nav-link" href="#sec5">Locations</a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec8">Locations</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#sec9">Social Media</a>
+                        <a class="nav-link" href="#sec6">Social Media</a>
                     </li>
                 </ul>
 
@@ -115,35 +130,10 @@
         <h2 class="subheader fontManuvers">to a jolly<span class="subheader fontManuvers spanHome"> Home </span>&<span class="subheader fontManuvers spanGarden"> Garden </span></h2>
     </section>
 
-    <!-- pledge -->
+    <!-- services -->
     <section id="sec2">
         <div class="row">
-
-            <div class="col-sm-12 col-md-4 column">
-                <img src="resources/img/modal1.png" class="image">
-            </div>
-
-            <div class="col-sm-12 col-md-4 column">
-                <img src="resources/img/modal2.png" class="image">
-            </div>
-
-            <div class="col-sm-12 col-md-4 column">
-                <img src="resources/img/modal3.png" class="image">
-            </div>
-
-        </div>
-    </section>
-
-    <!-- sales message -->
-    <section id="sec3">
-        <h1 class="header fontManuvers">4 services</h1>
-        <h2 class="subheader fontManuvers">all under one roof</h2>
-    </section>
-
-    <!-- projects -->
-    <section id="sec4">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 column">
+            <div class="col-sm-12 col-md-6">
                 <div class="container">
                     <img src="resources/img/houseclearances.jpg" class="image">
                     <div class="overlay home">
@@ -151,7 +141,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 column">
+            <div class="col-sm-12 col-md-6 smallerColumn">
+                <h1 class="fontManuvers spanHome">house clearances</h1>
+                <p class="TextAlignCenter">Fully Insured, Experienced & Reliable</p>
+                <p class="serviceDescriptions">The design process begins with a meeting with an architect at your property. This initial design session lasts for either half a day or a full day, depending on your requirements. We will help to define your brief and advise on the best way forward for the project.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <div class="container">
                     <img src="resources/img/lawnmaintenance.jpg" class="image">
                     <div class="overlay garden">
@@ -159,7 +154,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 column">
+            <div class="col-sm-12 col-md-6 smallerColumn">
+                <h1 class="fontManuvers spanGarden">lawn maintenance</h1>
+                <p class="TextAlignCenter">Standing & Riding Mowers</p>
+                <p class="serviceDescriptions">The design process is a collaborative one, and your architect will discuss each aspect of the proposal in detail with you as the design develops. We provide architects plans, other drawings, material samples and 3D rendered views that illustrate the qualities of the proposed spaces.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <div class="container">
                     <img style="height: 100%" src="resources/img/rubbishremoval.jpg" class="image">
                     <div class="overlay home">
@@ -167,7 +167,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 column">
+            <div class="col-sm-12 col-md-6 smallerColumn">
+                <h1 class="fontManuvers spanHome">rubbish recycling</h1>
+                <p class="TextAlignCenter">Fully Liscenced, Transportation & Disposal</p>
+                <p class="serviceDescriptions">During construction works, your architect will visit the site to see that work is proceeding in accordance with the proposed designs. Following completion your architect will make final inspections and advise on any rectification works required.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <div class="container">
                     <img src="resources/img/stumpgrinding.jpg" class="image">
                     <div class="overlay garden">
@@ -175,47 +180,78 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-    </section>
-
-    <!-- services -->
-    <section id="sec5">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 column">
-                <h1 class="fontManuvers spanHome">house clearances</h1>
-                <p class="TextAlignCenter">Fully Insured, Experienced & Reliable</p>
-                <p>The design process begins with a meeting with an architect at your property. This initial design session lasts for either half a day or a full day, depending on your requirements. We will help to define your brief and advise on the best way forward for the project.</p>
-            </div>
-            <div class="col-sm-12 col-md-6 column">
-                <h1 class="fontManuvers spanGarden">lawn maintenance</h1>
-                <p class="TextAlignCenter">Standing & Riding Mowers</p>
-                <p>The design process is a collaborative one, and your architect will discuss each aspect of the proposal in detail with you as the design develops. We provide architects plans, other drawings, material samples and 3D rendered views that illustrate the qualities of the proposed spaces.</p>
-            </div>
-            <div class="col-sm-12 col-md-6 column">
+            <div class="col-sm-12 col-md-6 smallerColumn">
                 <h1 class="fontManuvers spanGarden">stump grinding</h1>
                 <p class="TextAlignCenter">Colton Brand 13-Horsepower</p>
-                <p>Detailed drawings (sometimes called blueprints or architectural details) will be produced to finalise all elements of the design, indicating key junctions, structural design, services including electrical layouts, and floor, wall and roof constructions.</p>
+                <p class="serviceDescriptions">Detailed drawings (sometimes called blueprints or architectural details) will be produced to finalise all elements of the design, indicating key junctions, structural design, services including electrical layouts, and floor, wall and roof constructions.</p>
             </div>
-            <div class="col-sm-12 col-md-6 column">
+        </div>
+
+        <div class="row largerColumn">
+            <div class="col-sm-12 col-md-6">
+                <h1 class="fontManuvers spanHome">house clearances</h1>
+                <p class="TextAlignCenter">Fully Insured, Experienced & Reliable</p>
+                <p class="serviceDescriptions">The design process begins with a meeting with an architect at your property. This initial design session lasts for either half a day or a full day, depending on your requirements. We will help to define your brief and advise on the best way forward for the project.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h1 class="fontManuvers spanGarden">lawn maintenance</h1>
+                <p class="TextAlignCenter">Standing & Riding Mowers</p>
+                <p class="serviceDescriptions">The design process is a collaborative one, and your architect will discuss each aspect of the proposal in detail with you as the design develops. We provide architects plans, other drawings, material samples and 3D rendered views that illustrate the qualities of the proposed spaces.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
                 <h1 class="fontManuvers spanHome">rubbish recycling</h1>
                 <p class="TextAlignCenter">Fully Liscenced, Transportation & Disposal</p>
-                <p>During construction works, your architect will visit the site to see that work is proceeding in accordance with the proposed designs. Following completion your architect will make final inspections and advise on any rectification works required.</p>
+                <p class="serviceDescriptions">During construction works, your architect will visit the site to see that work is proceeding in accordance with the proposed designs. Following completion your architect will make final inspections and advise on any rectification works required.</p>
             </div>
+            <div class="col-sm-12 col-md-6">
+                <h1 class="fontManuvers spanGarden">stump grinding</h1>
+                <p class="TextAlignCenter">Colton Brand 13-Horsepower</p>
+                <p class="serviceDescriptions">Detailed drawings (sometimes called blueprints or architectural details) will be produced to finalise all elements of the design, indicating key junctions, structural design, services including electrical layouts, and floor, wall and roof constructions.</p>
+            </div>
+
         </div>
     </section>
 
+    <!-- contact -->
+    <section id="sec3">
+        <h1 class="header fontManuvers spanGarden">free quotes</h1>
+        <h1 class="subheader">+447714217199</h1>
+    </section>
+
+    <!-- pledge -->
+    <section id="sec4">
+        <h1 class="header fontManuvers">4 services</h1>
+        <h2 class="subheader fontManuvers">all under one roof</h2>
+    </section>
+
+    <div class="row MarginBottom50">
+
+        <div class="col-sm-12 col-md-4 column">
+            <img src="resources/img/modal1.png" class="image">
+        </div>
+
+        <div class="col-sm-12 col-md-4 column">
+            <img src="resources/img/modal2.png" class="image">
+        </div>
+
+        <div class="col-sm-12 col-md-4 column">
+            <img src="resources/img/modal3.png" class="image">
+        </div>
+
+    </div>
+
+    <!--Carousel Wrapper-->
+    <!--
     <section id="sec6">
-        <!--Carousel Wrapper-->
+        
         <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
-            <!--Indicators-->
+
             <ol class="carousel-indicators">
                 <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
                 <li data-target="#video-carousel-example" data-slide-to="1"></li>
                 <li data-target="#video-carousel-example" data-slide-to="2"></li>
             </ol>
-            <!--/.Indicators-->
-            <!--Slides-->
+
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <img src="resources/img/houseclearances.jpg">
@@ -227,8 +263,7 @@
                     <img src="resources/img/lawnmaintenance.jpg">
                 </div>
             </div>
-            <!--/.Slides-->
-            <!--Controls-->
+
             <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -237,19 +272,14 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-            <!--/.Controls-->
-        </div>
-        <!--Carousel Wrapper-->
-    </section>
 
-    <!-- contact -->
-    <section id="sec7">
-        <h1 class="header fontManuvers spanGarden">free quotes</h1>
-        <h1 class="subheader">+447714217199</h1>
+        </div>
+
     </section>
+    -->
 
     <!-- locations -->
-    <section id="sec8">
+    <section id="sec5">
         <h1 class="header fontManuvers spanHome">london</h1>
         <h1 class="locations">Croydon - Barnet - Ealing - Enfield - Newham - Bromley - Brent - Lambeth - Wandsworth - Southwark</h1>
         <h1 class="header fontManuvers spanHome">surrey</h1>
@@ -258,7 +288,7 @@
 
 
     <!-- footer -->
-    <section id="sec9">
+    <section id="sec6">
         <footer class="footer bg-light text-center">
             <div class="row">
 
@@ -296,10 +326,10 @@
         $(window).on('load', function() {
             $('#loaderOverlay').addClass('loaded');
             $('#loader').addClass('loaded');
+            $('#loaderOverlay').addClass('fullyLoaded');
         });
 
-
-        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        //navbar padding change on scroll
         window.onscroll = function() {
             scrollFunction();
         };
@@ -314,8 +344,6 @@
         }
 
     </script>
-
-
 
 </body>
 
