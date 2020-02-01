@@ -1,0 +1,4 @@
+Sitemap: https://www.jolly-home.uk/sitemap.xml
+
+User-agent: *
+Allow: /
